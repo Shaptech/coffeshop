@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Shaptec" />
+    <meta
+      name="description"
+      content="The Offical website for Jerry's Bakery shop"
+    />
+    <title>Jerry's Bakery Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header_h1">Jerry's Bakery Shop</h1>
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Hours</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2 class="hero_h2">Bienvenidos!</h2>
+      <figure>
+        <img
+          src="images/image005123.png"
+          alt="Bakery shop"
+          title="fresh from our oven to the table"
+          width="1000"
+          height="667"
+        />
+
+        <figcaption class="offscreen">
+          "Elevate Your Senses With Our Expertly Crafted Baked Goods."
+        </figcaption>
+      </figure>
+    </section>
+
+    <main class="main">
+      <article id="menu" class="main_article menu">
+        <h2 class="menu_h2">Menu</h2>
+        <table class="menu_container">
+          <caption class="offscreen">
+            Our Bakeries
+          </caption>
+          <thead>
+            <tr>
+              <th class="menu_header" scope="col">Cup Cakes</th>
+              <th class="menu_header" scope="col">Quantity</th>
+              <th class="menu_header" scope="col">Prices</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="menu_item menu_va" scope="row" rowspan="3">
+                Vanilla Cupcake
+              </th>
+              <td class="menu_item">1</td>
+              <td class="menu_item">$1.20</td>
+            </tr>
+            <tr>
+              <td class="menu_item">2</td>
+              <td class="menu_item">$3.20</td>
+            </tr>
+            <tr>
+              <td class="menu_item">3</td>
+              <td class="menu_item">$4.40</td>
+            </tr>
+            <tr>
+              <th class="menu_item menu_cho" scope="row" rowspan="3">
+                Chocolate Cupcake
+              </th>
+              <td class="menu_item">1</td>
+              <td class="menu_item">$2.20</td>
+            </tr>
+            <tr>
+              <td class="menu_item">2</td>
+              <td class="menu_item">$4.20</td>
+            </tr>
+            <tr>
+              <td class="menu_item">3</td>
+              <td class="menu_item">$5.40</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="menu_item menu_pb" colspan="3">
+                Peanut Butter &amp; Carrot Cake $5
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <p class="center">
+          <a href="#">Back To Top</a>
+        </p>
+      </article>
+    </main>
+    <hr />
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">Jerry's Bakery Shop.</span>
+      </p>
+    </footer>
+  </body>
+</html>
